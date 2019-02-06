@@ -90,9 +90,9 @@ As we know that the ground truth is available as a continuous variable. And so w
 ### Results
 The train scores after implementing different regression models:
 
-|                       |Using PCA|                     |
-|-----------------------------------------------------|
+Using PCA:
 |     **Model**             | **R^2 value** | **MSE** |
+|---------------------------|---------------|---------|
 | Linear Regression         | 0.5357        | 76.2435 |
 | Ridge Regression          | 0.5483        | 74.2217 |
 | Lasso Regression          | 0.5460        | 74.6026 |
@@ -100,9 +100,9 @@ The train scores after implementing different regression models:
 | KNN Regressor             | 0.051         | 167.8394|
 
 
-|                       Using TSVD                    |
-|-----------------------------------------------------|
+Using TSVD:
 |     **Model**             | **R^2 value** | **MSE** |
+|---------------------------|---------------|---------|
 | Linear Regression         | 0.4927        | 83.06134|
 | Ridge Regression          | 0.4928        | 86.06116|
 | Lasso Regression          | 0.4927        | 83.06133|
