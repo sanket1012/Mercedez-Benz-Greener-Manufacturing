@@ -18,9 +18,9 @@ The over all problem statement is solved with two different approach. First, by 
 
 [//]: # (Image References)
 
-[image1]: ./Graphs/Graph 1.png
-[image2]: ./
-[image3]: ./
+[image1]: ./Graphs/Graph_1.png
+[image2]: ./Graphs/
+[image3]: ./Graphs/
 [image4]: ./Graphs/Features.png
 
 ## Brief explanation of each step
