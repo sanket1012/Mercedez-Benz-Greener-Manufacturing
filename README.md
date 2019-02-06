@@ -18,10 +18,10 @@ The over all problem statement is solved with two different approach. First, by 
 
 [//]: # (Image References)
 
-[image1]: ./camera_cal/undistorted/cal1.jpg
-[image2]: ./test_outputs/undistorted_test6.jpg
-[image3]: ./test_outputs/thresholded_image_test6.jpg
-[image4]: ./test_outputs/warped_image_test6.jpg
+[image1]: ./Graphs/Graph 1.png
+[image2]: ./
+[image3]: ./
+[image4]: ./Graphs/Features.png
 
 ## Brief explanation of each step
 
@@ -42,11 +42,11 @@ The over all problem statement is solved with two different approach. First, by 
 We plotted various different attributes for the mean time they contribute to and some of them had relatively high contribution to the total time and some of them had very low contribution. This led us to the analysis of PCA and ICA where attributes who contributed less would eventually be dropped or not considered for training.
 
 ![alt_text][image1]
-![alt_text][image1]
-![alt_text][image1]
+![alt_text][image2]
+![alt_text][image3]
 
 The below graph shows us the important features selected by XGBoost. The features selected are categorical features as well as binary features. In our case, we will give more importance to the categorical features and hence, we go ahead and plot the mean times for all the categorical features. The categorical features are X5, X0, X8, X6, X1, X3, X2.
-![alt_text][image1]
+![alt_text][image4]
 
 ### Data Preprocessing
 
