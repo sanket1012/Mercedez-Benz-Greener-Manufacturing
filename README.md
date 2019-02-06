@@ -90,7 +90,7 @@ As we know that the ground truth is available as a continuous variable. And so w
 ### Results
 The train scores after implementing different regression models:
 
-|                       Using PCA                     |
+|                       |Using PCA|                     |
 |-----------------------------------------------------|
 |     **Model**             | **R^2 value** | **MSE** |
 | Linear Regression         | 0.5357        | 76.2435 |
